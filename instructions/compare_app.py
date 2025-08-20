@@ -60,8 +60,8 @@ def to_display_value(value: Any) -> str:
     return text
 
 
-st.set_page_config(page_title="Comparaison LEGALMAP vs PAPPERS", layout="wide")
-st.title("Comparaison LEGALMAP vs PAPPERS")
+st.set_page_config(page_title="Comparaison LEGALMAP vs PAPPERS + Perplexity", layout="wide")
+st.title("Comparaison LEGALMAP vs PAPPERS + Perplexity")
 st.markdown("Entrez un SIREN (9 chiffres) puis cliquez sur Comparer.")
 
 siren_input = st.text_input("SIREN", placeholder="ex: 552100554")
